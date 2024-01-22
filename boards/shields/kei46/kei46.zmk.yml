@@ -1,0 +1,9 @@
+file_format: "1"
+id: kei46
+name: Kei46
+type: shield
+url: https://github.com/cmunarrizg/zmk-kei46
+requires: [pro_micro]
+features:
+  - keys
+  - encoder

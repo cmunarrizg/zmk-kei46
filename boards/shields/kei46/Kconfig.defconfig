@@ -1,0 +1,9 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_KEI46
+
+config ZMK_KEYBOARD_NAME
+    default "Kei46"
+
+endif # SHIELD_KEI46
