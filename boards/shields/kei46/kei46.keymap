@@ -41,7 +41,7 @@
     combos {
           compatible = "zmk,combos";
   
-          COMBO(esc_combo, &kp ESC, 28 31)
+          COMBO(esc_combo, &kp ESC, 1 2)
           COMBO(lgui_combo, &kp LGUI, 29 30)
         };
 
