@@ -30,6 +30,7 @@
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
+        wakeup-source;
         diode-direction = "col2row";
 
         col-gpios
@@ -66,6 +67,11 @@
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder>;
 	//triggers-per-rotation = <20>;
+    };
+
+    soft_off_wakers {
+        compatible = "zmk,soft-off-wakeup-sources";
+        wakeup-sources = <&kscan0>;
     };
 };
 
